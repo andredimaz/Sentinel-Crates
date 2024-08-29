@@ -1,0 +1,13 @@
+name: Sentinel-Crates
+version: '${project.version}'
+main: github.andredimaz.plugin.crates.Main
+authors: [ dimaz ]
+depend:
+  - SentinelLib
+commands:
+  crates:
+    description: Comando principal para crates
+    usage: /<command> [subcomando]
+    aliases: [crate]
+    permission: sentinel.crates
+    permission-message: "§cVocê não tem permissão para usar este comando."

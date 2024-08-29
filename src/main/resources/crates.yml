@@ -1,0 +1,13 @@
+chaves:
+  exemplo:
+    material: 131
+    nome: 'Chave teste'
+    lore:
+      - 'lore especial'
+      - 'especial'
+    crate-item:
+      material: 1
+      nome: 'Crate de teste'
+      lore:
+        - 'lore especial'
+        - 'especial'

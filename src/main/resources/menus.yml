@@ -1,0 +1,43 @@
+principal:
+  titulo: "&aMenu Principal"  # Certifique-se de que este campo não está vazio
+  linhas: 6
+  butoes:
+    teleport:
+      slot: 4
+      nome: '&6&lCRATES FISICAS'
+      material: "368"
+      lore:
+        - '&eClique para teleportar'
+      acoes:
+        - '[player] warp crates'
+        - '[sound] NOTE_PLING'
+    modo-automatico:
+      slot: 38
+      nome: '&6&lMODO AUTOMATICO'
+      material: "421"
+      lore:
+        - '&7Adquira VIP para desbloquear'
+        - '&7a função de abrir suas keys'
+        - '&7automaticamente para você.'
+      acoes:
+        - '[player] warp crates'
+    recompensas:
+      slot: 40
+      nome: '&6&lRECOMPENSAS'
+      material: "54"
+      lore:
+        - '&7Todas as recompensas de suas chaves'
+        - '&7serão enviadas para este armazém.'
+        - ''
+        - '&eClique para abrir'
+      acoes:
+        - 'OPEN_REWARDS_MENU'
+    perks:
+      slot: 42
+      nome: '&6&lPERKS'
+      material: "266"
+      lore:
+        - '&7Evolua seus perks para abrir'
+        - '&7suas crates de forma eficiente.'
+      acoes:
+        - 'OPEN_PERKS_MENU'
