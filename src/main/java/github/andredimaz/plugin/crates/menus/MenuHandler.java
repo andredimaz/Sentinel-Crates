@@ -7,6 +7,7 @@ import github.andredimaz.plugin.crates.handlers.ActionHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -78,7 +79,7 @@ public class MenuHandler implements Listener {
     }
 
     // Handle inventory click events
-    @org.bukkit.event.EventHandler
+    @EventHandler
     public void handleClick(InventoryClickEvent event) {
         menus.values().forEach(menu -> menu.handleClick(event)); // Cancels item movement and processes the click
     }
